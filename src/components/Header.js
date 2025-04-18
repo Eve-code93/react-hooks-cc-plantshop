@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 function Header() {
   return (
-    <header>
+    <header className="app-header">
       <h1>
         Plantsy
-        <span className="logo" role="img">
+        <span className="logo" role="img" aria-label="Plant Emoji">
           🌱
         </span>
       </h1>
