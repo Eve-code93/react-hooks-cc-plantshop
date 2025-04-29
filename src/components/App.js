@@ -10,7 +10,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:6001/plants")
+    fetch("https://react-hooks-cc-plantshop-2-ymci.onrender.com/plants")
       .then(r => r.json())
       .then(plantData => {
         // Filter plants to only include those with images
